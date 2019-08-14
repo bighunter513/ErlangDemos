@@ -1,0 +1,8 @@
+
+story_tree:
+  旨在以supervisor监控树的方式启动剧本服。便于同时管理某一个剧本和attached的副本、以及仅仅共享数据link上来的独立detached副本玩家。
+  detached副本玩家不属于任何剧本，但是地图信息等和剧本共享。原来的user_story 数据结构 增加is_detached 字段来判断是否是独立副本玩家。
+
+
+
+
